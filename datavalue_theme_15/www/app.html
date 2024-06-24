@@ -75,7 +75,11 @@ www.abdo-host.com
             <header id="app-header"></header>
 			<div class="dv-content-overlay"></div>
             <div class="dv-app-content" id="body"></div>
-            <footer id="app-footer"></footer>
+            <footer id="custom-app-footer">
+				<div class="text-center login-copyrights">
+					Powered By <a href="#">Havano</a>
+				</div>
+			</footer>
 			{{ frappe.render_template('templates/side-menu.html', {}) }}
         </div>
         <div id="all-symbols" style="display:none"></div>
